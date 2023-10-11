@@ -119,12 +119,18 @@ The tool produced by this project can be operationalized as a web-based applicat
 
 ## Weekly Meeting Updates
 
-[Meeting Link](https://bostonu.zoom.us/j/92945921675?pwd=WVgvbHFUWE5oYy9ja1BIVEp6cmJidz09)
+[PM Meeting Link](https://bostonu.zoom.us/j/92945921675?pwd=WVgvbHFUWE5oYy9ja1BIVEp6cmJidz09)
+- Scheduled Tuesday 10th Oct 11:45am to 12:30pm
+- Scheduled on Mondays 11:45am to 12:30pm
 
-    - Scheduled Tuesday 10th Oct 11:45am to 12:30pm
-    - Scheduled on Mondays 11:45am to 12:30pm
 
-- **Meeting Notes - Tuesday - 10th Oct**
+[Client Meeting Link]()
+- Scheduled ...
 
-    - 
-    - 
+
+ **PM Meeting Notes - Tuesday - 10th Oct**
+ -
+    - Introductions
+    - Ensured access to google drive and slack channel
+    - Shared questions seeking clarifications on some aspects of the project
+    - Emphasis laid on scheduling client meeting as soon as possible
