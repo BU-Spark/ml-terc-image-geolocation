@@ -124,13 +124,22 @@ The tool produced by this project can be operationalized as a web-based applicat
 - Scheduled on Mondays 11:45am to 12:30pm
 
 
-[Client Meeting Link]()
-- Scheduled ...
+Client Meeting Link
+- Kick Off -Monday 16th Oct 2023 ([link](https://bostonu.zoom.us/j/93413092114?pwd=b3UzSkVYY3lzaERpWW1LV1NEaDV3Zz09))
 
 
- **PM Meeting Notes - Tuesday - 10th Oct**
- -
-    - Introductions
-    - Ensured access to google drive and slack channel
-    - Shared questions seeking clarifications on some aspects of the project
-    - Emphasis laid on scheduling client meeting as soon as possible
+### **PM Meeting Notes - Tuesday - 10th Oct**
+
+- Introductions
+- Ensured access to google drive and slack channel
+- Shared questions seeking clarifications on some aspects of the project
+- Emphasis laid on scheduling client meeting as soon as possible
+
+### **Meeting with Prof. Gardos - Friday - 13th Oct**
+
+- Clarrified project goal, which is getting the location of the image
+- Discussed how to proceed
+
+    - either go for the exif -> extract metadata -> take longitude, latitude and altitude -> do lens optics -> get the Field of View
+    - or study ISS statelite positing and image capture
+    - also try cesium statelite tracker
