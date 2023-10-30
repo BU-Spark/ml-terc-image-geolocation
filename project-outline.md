@@ -126,6 +126,7 @@ The tool produced by this project can be operationalized as a web-based applicat
 
 Client Meeting Link
 - Kick Off -Monday 16th Oct 2023 ([link](https://bostonu.zoom.us/j/93413092114?pwd=b3UzSkVYY3lzaERpWW1LV1NEaDV3Zz09))
+- Bi-weekly meeting 30th Oct 2023 ([link](https://bostonu.zoom.us/j/93413092114?pwd=b3UzSkVYY3lzaERpWW1LV1NEaDV3Zz09))
 
 
 ### **PM Meeting Notes - Tuesday - 10th Oct**
@@ -140,6 +141,25 @@ Client Meeting Link
 - Clarrified project goal, which is getting the location of the image
 - Discussed how to proceed
 
-    - either go for the exif -> extract metadata -> take longitude, latitude and altitude -> do lens optics -> get the Field of View
-    - or study ISS statelite positing and image capture
+    - go for the exif -> extract metadata -> take longitude, latitude and altitude -> do lens optics -> get the Field of View
+    - study ISS statelite positing and image capture
     - also try cesium statelite tracker
+
+### **PM Meeting Notes - Monday - 16th Oct**
+- Discussed what exactly was to be dicussed in the client meeting
+
+### **Client Kick-Off Meeting Notes - Monday - 16th Oct**
+- Introductions
+- Client gave a brief description of the problem and the bigger picture
+- Cleared some questions
+- Agreed on date and time for next meeting
+
+### **PM Meeting Notes - Monday - 23rd Oct**
+- Gave progress update
+- Assigned tasks for the week
+
+### **PM Meeting Notes - Monday - 30th Oct**
+- 
+
+### **Client Meeting Notes - Monday - 30th Oct**
+-
