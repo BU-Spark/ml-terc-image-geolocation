@@ -159,7 +159,7 @@ Client Meeting Link
 - Assigned tasks for the week
 
 ### **PM Meeting Notes - Monday - 30th Oct**
-- 
+- Meeting cancelled
 
 ### **Client Meeting Notes - Monday - 30th Oct**
--
+- Meeting cancelled
