@@ -19,12 +19,12 @@ def calculate_fov_and_scene_dimensions(focal_length, sensor_width, sensor_height
     return fov_horizontal, fov_vertical, scene_width, scene_height
 
 # Example usage: These correspond to a Nikon D5
-focal_length = 50  # in millimeters
+focal_length = 80  # in millimeters
 sensor_width = 36  # in millimeters (for a full-frame sensor like Nikon D5)
 sensor_height = 24  # in millimeters
 
 # Distance of the ISS camera to earth
-distance = 300  # in kilometers
+distance = 414.6891  # in kilometers
 
 fov_horizontal, fov_vertical, scene_width, scene_height = calculate_fov_and_scene_dimensions(focal_length, sensor_width, sensor_height, distance)
 
