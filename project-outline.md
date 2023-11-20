@@ -184,7 +184,8 @@ Client Meeting Link
 - Discussed what should be submitted as deliverables on Gradescope.
 
 ### **PM Meeting Notes - Monday - 20th Nov**
-- 
+- Gave an update on what we are working on and how are we going to progress
+- Planned out the schedule for future meetings.
 
 ### **PM Meeting Notes - Monday - 4th Dec**
 - 
