@@ -163,3 +163,31 @@ Client Meeting Link
 
 ### **Client Meeting Notes - Monday - 30th Oct**
 - Meeting cancelled
+
+### **PM Meeting Notes - Monday - 6th Nov**
+- Short Meeting dicussed what to present in client meeting
+
+### **Client Meeting Notes - Monday - 6th Nov**
+- Presented EDA in client meeting
+
+### **PM Meeting Notes - Monday - 12th Nov**
+- Discussed what to present in client meeting
+
+### **Client Meeting Notes - Monday - 12th Nov**
+- Presented Poc in client meeting
+- Discussed some problems related to cloud cover and general client expectation
+- Found suitable date to reshedule the next client meeting
+
+### **Meeting with Prof. Gardos - Friday - 17th Nov**
+- Discussed about the shortcomes of current pipelines - SIFT and Corelate2D
+- Demostarted the Chatgpt-4 pipeline
+- Discussed what should be submitted as deliverables on Gradescope.
+
+### **PM Meeting Notes - Monday - 20th Nov**
+- 
+
+### **PM Meeting Notes - Monday - 4th Dec**
+- 
+
+### **Client Meeting Notes - Wednesday - 6th Dec**
+-
