@@ -42,7 +42,7 @@ The application of the neural network-based approach using the VGG16 model has y
     ![Alt text](assets/images/image-4+5.png) \
     The cloud cover, which can obscure relevant features, was a significant factor in this case. The area of interest for this image was sampled at a zoom level of 10 with a resolution of 3000x3000 pixels.
     - _Successful Detection:_ The algorithm managed to locate the correct position in another set of images. The first image below is the query, followed by the image displaying the detected location with a blue dot. \
-    ![Alt text](assets/images/image-6.png) ![Alt text](assets/images/image-7.png) \
+    ![Alt text](assets/images/image-6+7.png) \
     Notably, for this correct match, the area of interest was generated at a zoom level of 9.5. This indicates that zoom levels are critical to the algorithm's performance, suggesting a need for further optimization to enhance robustness.
 
 
