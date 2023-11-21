@@ -27,7 +27,7 @@ This image showcases the ineffectiveness of direct SIFT matching on the generate
 ![Alt text](assets/images/image-1.png) \
 This image represents the algorithm's best match, which is evidently incorrect.
 - **Experiments with Zoom Levels and Image Sizes:** Further experimentation was conducted with varying zoom levels and sizes of the area of interest, still employing the subsampling method. These modifications, unfortunately, did not yield successful results either. The following images depict the lackluster outcomes from these trials: \
-![Alt text](assets/images/image-2.png) ![Alt text](assets/images/image-3.png) \
+![Alt text](assets/images/image-2+3.png) \
 These images display unsuccessful attempts at matching, using different zoom levels and sizes.
 
 The experiments conducted in this notebook highlight the challenges of applying SIFT for direct image matching in a complex task like geolocating images from the ISS. Despite the setbacks, these attempts have been instrumental in guiding us towards more refined methods.
@@ -39,7 +39,7 @@ This notebook explores a different approach from the previous SIFT-based method,
 - **Results**
 The application of the neural network-based approach using the VGG16 model has yielded promising results for a subset of images. Our method involved identifying the best two matches within the area of interest and pinpointing their central location.\
     - _Challenges with Cloud Cover:_ In one instance, the algorithm accurately detected the target area, as shown in the sequence of images below. The first image is the query image, while the second image demonstrates the detected location, marked by a blue dot.\
-    ![Alt text](assets/images/image-4.png) ![Alt text](assets/images/image-5.png) \
+    ![Alt text](assets/images/image-4+5.png) \
     The cloud cover, which can obscure relevant features, was a significant factor in this case. The area of interest for this image was sampled at a zoom level of 10 with a resolution of 3000x3000 pixels.
     - _Successful Detection:_ The algorithm managed to locate the correct position in another set of images. The first image below is the query, followed by the image displaying the detected location with a blue dot. \
     ![Alt text](assets/images/image-6.png) ![Alt text](assets/images/image-7.png) \
