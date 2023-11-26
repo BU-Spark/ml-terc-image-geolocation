@@ -1,3 +1,5 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+E:/BOSTON filter=lfs diff=lfs merge=lfs -text
+data/aoi_images_test/iss040e092721_aoi.jpg filter=lfs diff=lfs merge=lfs -text
