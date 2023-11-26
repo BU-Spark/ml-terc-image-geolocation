@@ -170,10 +170,10 @@ Client Meeting Link
 ### **Client Meeting Notes - Monday - 6th Nov**
 - Presented EDA in client meeting
 
-### **PM Meeting Notes - Monday - 12th Nov**
+### **PM Meeting Notes - Monday - 13th Nov**
 - Discussed what to present in client meeting
 
-### **Client Meeting Notes - Monday - 12th Nov**
+### **Client Meeting Notes - Monday - 13th Nov**
 - Presented Poc in client meeting
 - Discussed some problems related to cloud cover and general client expectation
 - Found suitable date to reshedule the next client meeting
@@ -186,6 +186,12 @@ Client Meeting Link
 ### **PM Meeting Notes - Monday - 20th Nov**
 - Gave an update on what we are working on and how are we going to progress
 - Planned out the schedule for future meetings.
+
+### **PM Meeting Notes - Monday - 27th Nov**
+- Meeting cancelled
+
+### **Client Meeting Notes - Monday - 27th Nov**
+- Meeting cancelled
 
 ### **PM Meeting Notes - Monday - 4th Dec**
 - 

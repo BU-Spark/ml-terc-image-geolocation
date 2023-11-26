@@ -58,3 +58,5 @@ Building upon the insights from our previous experiments, this notebook introduc
 ![Alt text](assets/images/image-9.png) \
 ![Alt text](assets/images/image-10.png) \
 As we can see, the algorithm is not able to detect the location accurately, it certainly performs slightly better on islands or continents however it struggles with more zoomed-in locations.
+
+# Future Work and Suggestions:
