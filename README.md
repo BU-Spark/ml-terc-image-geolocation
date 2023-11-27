@@ -1,6 +1,11 @@
-# TEMPLATE-base-repo
+# Intrustions for executing the pipelines
 
-# Add Users
-To add yourself to the repository, open a Pull Request modifying `COLLABORATORS`, entering your GitHub username in a newline.
+## General instructions
+- Run the docker container using the following command `docker run `
 
-All Pull Requests must follow the Pull Request Template, with a title formatted like such `[Project Name]: <Descriptive Title>`
+## How to run Pipeline-1-(NN)
+- upload you query image in the [data](./data/) folder
+- run the notebook [Poc_pipeline_NN.ipynb](./pipeline-1-(NN)/Poc_pipeline_NN)
+- enter the mapbox access token when prompted
+
+## How to run Pipeline-2-(SIFT)
