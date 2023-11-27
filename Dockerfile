@@ -7,8 +7,12 @@ WORKDIR /app
 # Copy the contents of the local directory to the working directory
 COPY . .
 
+RUN pip install --upgrade pip
+
 # Install dependencies specified in requirements.txt
 RUN pip install -r requirements.txt
 
+RUN pip install jupyter
+
 # Command to run the Jupyter notebook
-CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--no-browser", "--allow-root"]
+CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
