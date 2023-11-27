@@ -5,7 +5,7 @@
 
 ## How to run Pipeline-1-(NN)
 - upload you query image in the [data](./data/) folder
-- run the notebook [Poc_pipeline_NN.ipynb](./pipeline-1-(NN)/Poc_pipeline_NN)
+- run the notebook [Poc_pipeline_NN.ipynb](./pipeline-1-(NN)/Poc_pipeline_NN.ipynb)
 - enter the mapbox access token when prompted
 
 ## How to run Pipeline-2-(SIFT)
