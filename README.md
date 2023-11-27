@@ -1,7 +1,8 @@
-# Intrustions for executing the pipelines
+# Intrustions
 
 ## General instructions
-- Run the docker container using the following command `docker run `
+- Run the docker container using the following command `docker run -p 8888:8888 windows-on-earth`
+- open the link to the browser once the container is running
 
 ## How to run Pipeline-1-(NN)
 - upload you query image in the [data](./data/) folder
