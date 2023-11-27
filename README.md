@@ -1,4 +1,7 @@
-# Intrustions
+# Instructions
+
+## Build
+- using the following command to build `docker build -t windows-on-earth .`
 
 ## General instructions
 - Run the docker container using the following command `docker run -p 8888:8888 windows-on-earth`
@@ -7,6 +10,7 @@
 ## How to run Pipeline-1-(NN)
 - upload you query image in the [data](./data/) folder
 - run the notebook [Poc_pipeline_NN.ipynb](./pipeline-1-(NN)/Poc_pipeline_NN.ipynb)
+- enter the query image file name when prompted
 - enter the mapbox access token when prompted
 
 ## How to run Pipeline-2-(SIFT)
