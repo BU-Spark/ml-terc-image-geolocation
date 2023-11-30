@@ -1,6 +1,9 @@
 # Use an official Python runtime as a base image
 FROM registry.access.redhat.com/ubi9/python-311:latest
 
+USER root
+RUN yum -y update && yum -y install libglvnd-glx
+
 # Set the working directory in the container
 WORKDIR /app
 
