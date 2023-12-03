@@ -15,10 +15,19 @@ RUN pip install --upgrade pip
 
 RUN pip install jupyter
 
+# # Change working directory to /root temporarily to generate Jupyter config
+# WORKDIR /root
+
+# # Configure Jupyter Notebook to run without a password or token
+# RUN jupyter notebook --generate-config --allow-root \
+#     && echo "c.NotebookApp.token = ''" >> /root/.jupyter/jupyter_notebook_config.py \
+#     && echo "c.NotebookApp.password = ''" >> /root/.jupyter/jupyter_notebook_config.py
+
+
 # Install dependencies specified in requirements.txt
 RUN pip install -r requirements.txt
 
 
 
 # Command to run the Jupyter notebook
-CMD ["jupyter", "notebook", "--ip='*'", "--port=8888", "--no-browser", "--allow-root"]
+CMD ["jupyter", "notebook", "--ip='*'", "--port=8080", "--no-browser", "--allow-root"] #port where the container will listen to
