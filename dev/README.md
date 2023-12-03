@@ -6,11 +6,6 @@ This project seeks to use image recognition/machine learning combined with a vir
 
 Our goal is to accurately "predict" the location of the image. Specifically, we need the ability to recognize what the image is of, based on a simulated view of the world using things such as coastal or lake outlines, rivers, and other features. The system would need to "look around" in the simulation trying to match the photo to likely subjects (again, usually within 300 miles radius).
 
-# [Project Members](COLLABORATORS)
-
-- Hemant Kumar Singh
-- Jaisal Singh
-- Vedika Srivastava
 
 <!-- # [Project Outline](https://github.com/BU-Spark/ml-terc-image-geolocation/blob/dev-patch-1/project-outline.md) -->
 

@@ -33,3 +33,9 @@ Find a detailed account of the other experimentation and research at [dev/README
 # Evaluations on the Pipelines
 
 # Future Work and Suggestions:
+
+# [Project Members](./COLLABORATORS)
+
+- Hemant Kumar Singh
+- Jaisal Singh
+- Vedika Srivastava
