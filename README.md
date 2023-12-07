@@ -45,10 +45,6 @@ The application of the neural network-based approach using the VGG16 model has y
     ![Alt text](assets/images/image-6+7.png) \
     Notably, for this correct match, the area of interest was generated at a zoom level of 9.5. This indicates that zoom levels are critical to the algorithm's performance, suggesting a need for further optimization to enhance robustness.
 
-
-### [sliding_window_matcher_final.ipynb](notebooks/sliding_window_matcher_final.ipynb)
--
-
 ### [sliding_window_matcher_final_NN+SIFT.ipynb](notebooks/sliding_window_matcher_final_NN+SIFT.ipynb)
 In our continued efforts to refine the geolocation pipeline, we ventured to combine the strengths of both [Neural Networks (NN)]((https://github.com/BU-Spark/ml-terc-image-geolocation/blob/dev-patch-1/notebooks/Poc_pipeline_NN.ipynb)) and the [Scale-Invariant Feature Transform (SIFT)](https://github.com/BU-Spark/ml-terc-image-geolocation/blob/dev-patch-1/notebooks/sliding_window_matcher_final.ipynb) algorithms. Our objective was to enhance the robustness and accuracy of our pipeline by integrating these two powerful methods. Our idea was to extract features using VGG16 Imagenet weights and then compare using SIFT. However we encountered a fundamental compatibility challenge. The feature extraction process with VGG16 yields a high-dimensional representation of the image's content. This transformation results in the loss of the original pixel structure necessary for the SIFT algorithm, which operates on grayscale images and requires that pixel structure to identify and match key points.
 
@@ -59,6 +55,12 @@ Building upon the insights from our previous experiments, this notebook introduc
 ![Alt text](assets/images/image-10.png) \
 As we can see, the algorithm is not able to detect the location accurately, it certainly performs slightly better on islands or continents however it struggles with more zoomed-in locations.
 
-# Evaluations on the Pipelines
+# Evaluations on the Pipelines:
+## Pipeline 1 (NN):
+![issues-pie](./assets/images/nn-1.png)
+
+## Pipeline 2 (SIFT):
+
+## Pipeline 3(GPT-4):
 
 # Future Work and Suggestions:
