@@ -57,7 +57,7 @@ As we can see, the algorithm is not able to detect the location accurately, it c
 
 # Evaluations on the Pipelines:
 ## Pipeline 1 (NN):
-![issues-pie](./assets/images/nn-eval-pie-1.png)
+![issues-pie](./assets/images/nn-eval-pie-1.png) ![error](./assets/images/nn-bar-eval.png)
 
 ## Pipeline 2 (SIFT):
 
