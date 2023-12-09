@@ -8,7 +8,7 @@ Our goal is to accurately "predict" the location of the image. Specifically, we 
 
 # Instructions to run the Final Pipelines
 
-## Build and run a docker container
+## Build and run a docker container (only for Pipeline-1 and Pipeline-2)
 - use the following command to build `docker build -t windows-on-earth .` the docker container. we need to build the code only once.
 - run the docker container using the following command `docker run -p 8080:8080 windows-on-earth`.
     ```
@@ -41,6 +41,20 @@ Our goal is to accurately "predict" the location of the image. Specifically, we 
 - enter the Google Maps API token when prompted.
 - view the identified location in [results_SIFT_v2_csv.csv](./pipeline-2-(SIFT)/results_SIFT_v2_csv.csv) in appropriate columns.
 
+
+## How to run [Pipeline-3-(TerraByte)](https://chat.openai.com/g/g-cGxe4cVEb-terrabyte)
+```
+NOTE: requires GPT4 subscription for use
+```
+- Upload an image of Earth taken from the ISS for analysis.
+- If available, include the approximate GPS coordinates of the ISS at the time the image was taken. This helps in narrowing down potential locations.
+- Ask TerraByte to geolocate the image. You can include specific questions or details you're interested in, such as identifying particular geographical features or confirming a suspected location.
+- TerraByte will extract and identify natural and man-made features visible in the image. It will then try to determine the region of Earth depicted in the image based on the analysis. If the exact location is uncertain, TerraByte will offer a list of likely locations. 
+- Feel free to ask follow-up questions or request more details about any part of TerraByte's analysis.
+
+Tips for Best Results
+- Image Quality: High-resolution images with distinct geographical markers yield better results.
+- ISS Coordinates: Providing accurate ISS coordinates at the time of the image capture significantly enhances location prediction accuracy. However, if the location of the ISS is quite far from the location in the image, it might cause inaccurate identification.
 
 
 # Find a detailed account of the researh, experimentation and evaluations at [dev/README.md](./dev/README.md)
