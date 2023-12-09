@@ -91,7 +91,7 @@ TerraByte is a specialized AI model designed to analyze and geolocate images of 
 - ISS Coordinates: Providing accurate ISS coordinates at the time of the image capture significantly enhances location prediction accuracy. However, if the location of the ISS is quite far from the location in the image, it might cause inaccurate identification.
 
 ### Sample Usage Screenshots
-**1. Input: Amur Darya basin in Uzbekistan**
+**1. Input: Amur Darya basin in Uzbekistan** \
 ![image5](./assets/TerraByte/img1.png)
 
 **Output**: 
@@ -99,7 +99,7 @@ _“The landscape in the image is quite distinctive and could be identified as p
 
 _The large water bodies could potentially be man-made reservoirs, which are common in this region for irrigation and hydroelectric power generation. The presence of infrastructure such as roads or small settlements can be inferred from the patchy white spots, which may indicate human activity in an otherwise natural landscape.”_
 
-**2. Input: Picture of Sinai Peninsula and Nile river in Egypt**
+**2. Input: Picture of Sinai Peninsula and Nile river in Egypt** \
 ![image3](./assets/TerraByte/img2.png)
 
 **Output**:
@@ -109,7 +109,7 @@ _Given the ISS location at approximately 33.40787°N latitude and 22.99734°E lo
 
 _The image shows the canal running from the top left to the bottom right, with the Sinai Peninsula to the right and the Eastern Desert of Egypt to the left. The northern end of the Red Sea is visible at the bottom right corner, and the Mediterranean Sea would be out of the frame at the top left corner.”_
 
-**3. Input: Picture of Jamaica**
+**3. Input: Picture of Jamaica** \
 ![image4](./assets/TerraByte/img3.png)
 
 **Output**:
@@ -119,7 +119,7 @@ _The provided ISS coordinates are approximately 18.47024°N latitude and -80.374
 
 _Given the latitude and the appearance of the island, it could potentially be one of the larger islands in the Greater Antilles, such as Cuba, Hispaniola (the island shared by Haiti and the Dominican Republic), Jamaica, or Puerto Rico. However, the size and shape of the island, as well as the specific reef patterns, would need to be compared with maps or satellite imagery to determine the exact island.”_
 
-**4. Input: Picture of Lake Tanganyika in Central Africa**
+**4. Input: Picture of Lake Tanganyika in Central Africa** \
 ![image1](./assets/TerraByte/img4.png)
 
 **Output**:
