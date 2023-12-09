@@ -88,18 +88,6 @@ TerraByte is a specialized AI model designed to analyze and geolocate images of 
 
 **Step 2: ISS Location Information**
 - Provide ISS Coordinates: If available, include the approximate GPS coordinates of the ISS at the time the image was taken. This helps in narrowing down potential locations.
-
-**Step 3: Analysis Request**
-- Request Analysis: Ask TerraByte to geolocate the image. You can include specific questions or details you're interested in, such as identifying particular geographical features or confirming a suspected location.
-
-**Step 4: Review TerraByte's Analysis**
-- Examine the Analysis: TerraByte will extract and identify natural and man-made features visible in the image. It will then try to determine the region of Earth depicted in the image based on the analysis. If the exact location is uncertain, TerraByte will offer a list of likely locations. 
-
-**Step 5: Follow-up Questions**
-- Clarify and Explore Further: Feel free to ask follow-up questions or request more details about any part of TerraByte's analysis.
-
-_**Tips for Best Results**_
-- Image Quality: High-resolution images with distinct geographical markers yield better results.
 - ISS Coordinates: Providing accurate ISS coordinates at the time of the image capture significantly enhances location prediction accuracy. However, if the location of the ISS is quite far from the location in the image, it might cause inaccurate identification.
 
 ### Sample Usage Screenshots
