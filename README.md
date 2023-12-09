@@ -9,8 +9,8 @@ The Windows on Earth program receives astronaut photos from the International Sp
 - run the docker container using the following command `docker run -p 8080:8080 windows-on-earth`.
     ```
     Note: How to run container without building
-    - pull the image from dockerhub using the command `docker pull vedikasrivastavr/woe-6dec`
-    - now run the container `docker run -p 8080:8080 vedikasrivastavr/woe-6dec`
+    - pull the image from dockerhub using the command `docker pull vedikasrivastavr/terc-windows-on-earth`
+    - now run the container `docker run -p 8080:8080 vedikasrivastavr/terc-windows-on-earth`
     ```
 - open the link to the browser once the container is running or paste `http://localhost:8080/tree` in the browser.
 - if you had previously created the container do `docker start <replace by container id>` and open `http://localhost:8080/tree`.
