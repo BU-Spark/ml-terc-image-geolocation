@@ -70,14 +70,14 @@ In this iteration, we updated our result format to work better in docker contain
 
 #### Below figure shows a query image, its corresponding AOI image the the best matched subsampled images.
 
-![Sample prediction 1](assets/images/SIFT_result_1.png)
+![Sample prediction 1](./assets/images/SIFT_result_1.png)
 
-![Sample prediction 2](assets/images/SIFT_result_2.png)
+![Sample prediction 2](./assets/images/SIFT_result_2.png)
 
 
 #### Below results shows 3 query images, there labeled location and predicted location.
 
-![SIFT Sample Results](assets/images/SIFT_result_3.png)
+![SIFT Sample Results](./assets/images/SIFT_result_3.png)
 
 ### [sliding_window_matcher_final_NN+SIFT.ipynb](notebooks/sliding_window_matcher_final_NN+SIFT.ipynb)
 In our continued efforts to refine the geolocation pipeline, we ventured to combine the strengths of both [Neural Networks (NN)]((https://github.com/BU-Spark/ml-terc-image-geolocation/blob/dev-patch-1/notebooks/Poc_pipeline_NN.ipynb)) and the [Scale-Invariant Feature Transform (SIFT)](https://github.com/BU-Spark/ml-terc-image-geolocation/blob/dev-patch-1/notebooks/sliding_window_matcher_final.ipynb) algorithms. Our objective was to enhance the robustness and accuracy of our pipeline by integrating these two powerful methods. Our idea was to extract features using VGG16 Imagenet weights and then compare using SIFT. However we encountered a fundamental compatibility challenge. The feature extraction process with VGG16 yields a high-dimensional representation of the image's content. This transformation results in the loss of the original pixel structure necessary for the SIFT algorithm, which operates on grayscale images and requires that pixel structure to identify and match key points.
@@ -98,7 +98,7 @@ As we can see, the algorithm is not able to detect the location accurately, it c
 SE2-LOFTR, a rotation-equivariant version of LoFTR using steerable CNNs, initially seemed promising. However, its pre-training on outdoor and indoor scenes didn't translate well to aerial imagery, resulting in suboptimal matches for our task. More details can be found here. https://github.com/georg-bn/se2-loftr
 
 Following is a sample result from SE2-LoFTR.
-![SE2-LoFTR Result](assets/images/Se2-loftr_result.png)
+![SE2-LoFTR Result](./assets/images/Se2-loftr_result.png)
 
 
 ### CasMTR:
