@@ -150,6 +150,7 @@ As we can see, the algorithm is not able to detect the location accurately, it c
 SE2-LOFTR, a rotation-equivariant version of LoFTR using steerable CNNs, initially seemed promising. However, its pre-training on outdoor and indoor scenes didn't translate well to aerial imagery, resulting in suboptimal matches for our task. More details can be found here. https://github.com/georg-bn/se2-loftr
 
 Following is a sample result from SE2-LoFTR.
+
 ![SE2-LoFTR Result](./assets/images/Se2-loftr_result.png)
 
 
@@ -168,6 +169,7 @@ The following chart displays the distribution of images based on the area range 
 ![area](./assets/images/area-eval.png)
 
 The pie chart (below left) shows the percentage breakdown of the model's outcomes: successful matches, failures to find a match, and images with problems. A large portion (75.52%) of the images resulted in a match found, indicating a relatively high success rate of the neural network. A smaller segment (23.08%) shows that for a considerable number of images, the model could not find a match, which could be due to various factors like image quality, lack of distinctive features, occlusions, clouds, or artifacts that prevent the model from processing the image correctly. A tiny fraction (1.40%) indicates problems with the image itself, which in this case that the ISS latitude location was missing.
+
 ![issues-pie](./assets/images/nn-eval-pie-1.png)  ![error](./assets/images/nn-bar-eval.png)
 
 The (above right) plots represent the density of errors in degrees for predicted latitude and longitude values against the best match values obtained by the neural network. For both latitude and longitude predictions, there's a noticeable concentration of density near the lower error values, which is a good sign as it indicates that most predictions are close to the correct values.
@@ -177,7 +179,9 @@ The (above right) plots represent the density of errors in degrees for predicted
 
 ## Pipeline 3(GPT-4):
 Overall, TerraByte has performed really well, considering that the base GPT-4 model has been unable to even make a prediction on most images. TerraByte’s strength lies in the fact that it only requires an image upload and a rough ISS location. No extra prompting is required for it to get to work. The following chart depicts the performance of the TerraByte model:
+
 ![eval](./assets/TerraByte/eval.png)
+
 We see that almost 90% of images can be approximately geolocated by the TerraByte model. It also correctly names the visible islands, rivers, lakes, and other prominent features visible in the image as well as describing the overall geography of the region. It can correctly identify the scale of the image as well.
 ### Drawbacks
 - **Prominent Geographical Features**: If an image contains a single prominent geographical feature such as a lake or an island, and the region itself has more than one prominent feature of that type, then TerraByte generally resorts to predicting the most prominent of those locations that may result in inaccuracy.
