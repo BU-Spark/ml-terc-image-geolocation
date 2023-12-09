@@ -107,7 +107,8 @@ CASMTR aimed to enhance Transformer-based image matching by capturing spatially 
 
 # Evaluations on the Pipelines:
 ## Pipeline 1 (NN):
-![issues-pie](./assets/images/nn-eval-pie-1.png) ![error](./assets/images/nn-bar-eval.png)
+![issues-pie](./assets/images/nn-eval-pie-1.png) ![error](./assets/images/nn-bar-eval.png) \
+![area](./assets/images/area-eval.png)
 
 ## Pipeline 2 (SIFT):
 
