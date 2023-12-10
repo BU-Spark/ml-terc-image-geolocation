@@ -174,6 +174,8 @@ The pie chart (below left) shows the percentage breakdown of the model's outcome
 
 The (above right) plots represent the density of errors in degrees for predicted latitude and longitude values against the best match values obtained by the neural network. For both latitude and longitude predictions, there's a noticeable concentration of density near the lower error values, which is a good sign as it indicates that most predictions are close to the correct values.
 
+Find other plots and details (numbers) in [NN-Eval-Analysis.ipynb](./notebooks/NN-Eval-Analysis.ipynb)
+
 
 ## Pipeline 2 (SIFT):
 
