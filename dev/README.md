@@ -117,35 +117,6 @@ _“The image features an island with a complex coastline, surrounded by the dee
 
 _The provided ISS coordinates are approximately 18.47024°N latitude and -80.37414°W longitude, which places the ISS above the Caribbean Sea. This region is known for its numerous islands, many of which are characterized by similar features to those visible in the image: lush vegetation, complex coastlines, and surrounding reef systems._
 
-_Given the latitude and the appearance of the island, it could potentially be one of the larger islands in the Greater Antilles, such as Cuba, Hispaniola (the island shared by Haiti and the Dominican Republic), Jamaica, or Puerto Rico. However, the size and shape of the island, as well as the specific reef patterns, would need to be compared with maps or satellite imagery to determine the exact island.”_
-
-**4. Input: Picture of Lake Tanganyika in Central Africa** \
-![image1](./assets/TerraByte/img4.png)
-
-**Output**:
-_“The image shows a vast water body with a highly irregular shoreline and cloud cover interspersed throughout the area. The water appears to have different shades, indicating varying depths or sediment levels. The land areas exhibit a range of colors, suggesting different soil types, vegetation densities, or perhaps even agricultural use._
-
-_The provided ISS coordinates are approximately 8.04204°S latitude and 30.28798°E longitude. This places the ISS over the African continent._
-
-_Considering the shape of the water body and the location, this image is likely depicting Lake Tanganyika, which is one of the African Great Lakes. Lake Tanganyika is known for its elongated shape, significant depth, and it borders several countries including Tanzania, the Democratic Republic of the Congo (DRC), Burundi, and Zambia._
-
-_The lake's distinctive features, such as its length and the surrounding topography, help in its identification. The northern end of the lake, which would be situated toward the upper part of the image, narrows and is bordered by mountainous regions, which is consistent with the geography of the area where the lake's shoreline comes close to the Rwenzori Mountains._
-
-_The scale of the image and the ISS's vantage point suggest that a large portion of Lake Tanganyika is visible, potentially spanning hundreds of kilometers from north to south.”_
-
-
-## Notable approaches that underperformed:
-In our quest for a superior image matching solution, we explored various other techniques: We tried to check different image matching techniques to check and see how well they perform.
-
-
-### [Poc_pipeline_LoFTR.ipynb](notebooks/Poc_pipeline_LoFTR.ipynb)
-Building upon the insights from our previous experiments, this notebook introduces the implementation of the LoFTR (Local Feature Transformer) algorithm, as detailed in the original [LoFTR](https://zju3dv.github.io/loftr/) paper. LoFTR leverages a transformer-based architecture to match features across images with wide baseline separations and varied viewpoints, making it well-suited for analyzing ISS photographs. Its ability to handle significant appearance changes and partial occlusions makes it a strong candidate for improving the accuracy of geolocating ISS photographs within the vast and visually diverse landscapes of Earth. Following are some results obtained by LoFTR: \
-![Alt text](assets/images/image-8.png) \
-![Alt text](assets/images/image-9.png) \
-![Alt text](assets/images/image-10.png) \
-As we can see, the algorithm is not able to detect the location accurately, it certainly performs slightly better on islands or continents however it struggles with more zoomed-in locations.
-
-
 ### SE2-LoFTR:
 SE2-LOFTR, a rotation-equivariant version of LoFTR using steerable CNNs, initially seemed promising. However, its pre-training on outdoor and indoor scenes didn't translate well to aerial imagery, resulting in suboptimal matches for our task. More details can be found here. https://github.com/georg-bn/se2-loftr
 

@@ -30,4 +30,4 @@ RUN pip install -r requirements.txt
 
 
 # Command to run the Jupyter notebook
-CMD ["jupyter", "notebook", "--ip='*'", "--port=8080", "--no-browser", "--allow-root"] #port where the container will listen to
+CMD ["jupyter", "notebook", "--ip='*'", "--port=5040", "--no-browser", "--allow-root"] #port where the container will listen to
