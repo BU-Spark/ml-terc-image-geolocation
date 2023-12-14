@@ -181,6 +181,30 @@ Find other plots and details (numbers) in [NN-Eval-Analysis.ipynb](./notebooks/N
 
 ## Pipeline 2 (SIFT):
 
+![Result1_graph_SIFT](./assets/images/sift_graph1.png)
+
+The provided bar graph illustrates the accuracy of geolocation predictions using the Scale-Invariant Feature Transform (SIFT) method on a dataset of 55 images captured from the International Space Station (ISS). Each image underwent analysis to predict its Earth location, and the results are benchmarked against the actual labeled locations.
+
+**Graph Overview**:
+
+-   X-Axis (Distance Threshold): Represents incremental distance thresholds from the true location, ranging from 5 km to 50 km.
+
+-   Y-Axis (Count of Good Matches): Denotes the number of images that were accurately predicted within each distance threshold from their true labeled location.
+
+**Prediction Results**:
+
+-   Predicted Location 1 (Blue Bars): Displays the count of images for which the first best match (highest SIFT feature correspondence) was within the specified distance threshold of the labeled location.
+
+-   Predicted Location 2 (Red Bars): Displays the count of images for which the second best match was within the specified distance threshold of the labeled location.
+
+**Interpretation:**
+
+-   The bar graph enables an assessment of the SIFT method's precision in identifying the correct Earth location as depicted in the ISS images.
+-   An increase in the distance threshold generally correlates with a higher count of good matches, reflecting the expected trend that broader thresholds will naturally encompass more predictions.
+-   By comparing the blue and red bars at each threshold, we gain insight into the distribution of the SIFT method's top two matches relative to the actual locations, highlighting the method's effectiveness and potential areas for refinement.
+
+![Result1_graph_SIFT](./assets/images/sift_graph2.png)
+
 ## Pipeline 3(GPT-4):
 Overall, TerraByte has performed really well, considering that the base GPT-4 model has been unable to even make a prediction on most images. TerraByte’s strength lies in the fact that it only requires an image upload and a rough ISS location. No extra prompting is required for it to get to work. The following chart depicts the performance of the TerraByte model:
 
