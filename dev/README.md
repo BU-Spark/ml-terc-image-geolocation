@@ -205,6 +205,30 @@ The provided bar graph illustrates the accuracy of geolocation predictions using
 
 ![Result1_graph_SIFT](./assets/images/sift_graph2.png)
 
+The provided histograms with overlaid kernel density estimation (KDE) curves depict the distribution of latitude and longitude prediction errors for a dataset of images processed using the Scale-Invariant Feature Transform (SIFT) algorithm.
+
+Graphs Interpretation:
+
+**Best Match 1 Latitude Error (Top Left)**:
+
+-   The graph shows a concentration of predictions near zero degrees of error, indicating high accuracy in latitude predictions for the first best match.
+-   The right-skewed distribution suggests that large latitude errors are relatively infrequent.
+
+**Best Match 1 Longitude Error (Top Right)**:
+
+-   This graph mirrors the latitude error pattern, with most predictions clustering near zero, reflecting precise longitude predictions for the first best match.
+-   The tapering curve to the right indicates that errors in longitude are generally small, with fewer large errors.
+
+**Best Match 2 Latitude Error (Bottom Left)**:
+
+-   The distribution of the second-best match for latitude errors is slightly broader than the first, suggesting a decrease in prediction accuracy.
+-   The majority of predictions still fall near the lower error values, with a gradual decline in density as the error increases.
+
+**Best Match 2 Longitude Error (Bottom Right)**:
+
+-   The error distribution for the second-best match in longitude shows a similar trend to its latitude counterpart, with a peak closer to zero but a wider spread overall.
+-   The pattern indicates that while the second-best matches are less accurate than the first, they predominantly remain within a reasonable error range.
+
 ## Pipeline 3(GPT-4):
 Overall, TerraByte has performed really well, considering that the base GPT-4 model has been unable to even make a prediction on most images. TerraByte’s strength lies in the fact that it only requires an image upload and a rough ISS location. No extra prompting is required for it to get to work. The following chart depicts the performance of the TerraByte model:
 
