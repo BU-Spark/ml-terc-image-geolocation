@@ -239,8 +239,26 @@ We see that almost 90% of images can be approximately geolocated by the TerraByt
 - **Prominent Geographical Features**: If an image contains a single prominent geographical feature such as a lake or an island, and the region itself has more than one prominent feature of that type, then TerraByte generally resorts to predicting the most prominent of those locations that may result in inaccuracy.
 - **Distance from ISS**: If the region depicted in the image is quite far from the ISS location (>1500-2000 miles), then it may struggle to take into account locations so far away, unless the features visible are quite unique.
 
-# Conclusion and Future Work:
+# Comparison of 3 pipelines:
+
+| Pipeline        | NN based Approach                                                | SIFT based Approach                                                                                               | GPT-4 based Approach                                             |
+|-----------------|------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------|
+| **Pros**        | - Comparatively space and compute effective                      | - Performs better on zoomed-in images like cities<br>- Ensures at least one match                                 | - No training required<br>- Can work without ISS location sometimes<br>- Provides additional explanation of regional geography |
+| **Cons**        | - Sometimes the generated Area of Interest (AOI) is not big enough<br>- Performs marginally on very zoomed in images | - Compute extensive (around 15 min for 1 image)<br>- Performs marginally on zoomed-out images like countries or large islands | - Requires GPT-4 subscription<br>- For complex images, multiple prompts can be required. |
+| **Future Work** | - Implement enhanced image pre-processing techniques to reduce the effects of obstacles such as clouds and shadows.<br>- Make a combined pipeline leveraging best of both NN and SIFT approaches | - Find an AOI generate faster than current google maps tile stitching technique.<br>- Add functionality to compare top 2 matched samples and use the correct one as final match.<br>- Implement enhanced image pre-processing techniques to reduce the effects of obstacles such as clouds and shadows.<br>- Make a combined pipeline leveraging best of both NN and SIFT approaches | - Model can be trained on detailed maps of the world to improve prediction<br>- GPT store is due to be launched soon which will allow greater access with API requests |
+
+
+
+
+# Conclusion:
 
 The Neural Network (NN) pipeline, has demonstrated a commendable capacity for geolocating images from the ISS. Through rigorous testing on over 140 diverse images, the NN has shown a high success rate, with a large majority of images accurately matched to their corresponding geographical features. The pipeline effectively handled a variety of challenges inherent in space-based photography, such as varying scales, cloud cover, and other noise factors in the images. Moving forward, implementing advanced image preprocessing techniques could mitigate the effects of image noise, such as cloud cover and artifacts, which currently pose challenges to the model's accuracy.
 
+The SIFT pipeline exhibits a high success rate in identifying features in zoomed-in images, like cities, while showing moderate success with less zoomed-in images, such as islands and mountains. As mentioned in future work section, there is a wide scope to enhance this pipeline to work better on diverse images.
+
 TerraByte is a powerful tool for ISS image analysis, offering insights into Earth's geography from an orbital perspective. Whether for educational, research, or curiosity purposes, TerraByte provides a unique way to explore our planet from above. It also provides a detailed description of the image that may be useful for further analysis or research. Since TerraByte can narrow down possible options very well, training it on small detailed maps of the world may significantly enhance its capabilities for identifying locations correctly.
+
+
+In conclusion, we utilized machine learning domain to transform space-based Earth image analysis, improving environmental monitoring and global mapping.​
+
+✌️
