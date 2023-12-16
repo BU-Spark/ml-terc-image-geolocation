@@ -29,7 +29,7 @@ These images display unsuccessful attempts at matching, using different zoom lev
 The experiments conducted in this notebook highlight the challenges of applying SIFT for direct image matching in a complex task like geolocating images from the ISS. Despite the setbacks, these attempts have been instrumental in guiding us towards more refined methods.
 
 
-### [Poc_pipeline_NN.ipynb](notebooks/Poc_pipeline_NN.ipynb)
+### [Poc_pipeline_NN.ipynb](notebooks/Poc_pipeline_NN.ipynb) (referred as pipeline 1)
 This notebook explores a different approach from the previous SIFT-based method, employing a neural network-based image recognition technique to identify geographic features in astronaut photos from the ISS.
 - **Key Aspects of this Approach:** A shift from SIFT to leveraging the VGG16 model, a neural network pre-trained on ImageNet data. This model is known for its effectiveness in image recognition tasks, which we harness to extract features from the images. We preprocess the images to fit the input requirements of the VGG16 model and perform feature extraction. The extracted features then undergo a cross-correlation process to find potential matches within the area of interest, followed by a peak-finding algorithm to determine the best match.
 - **Results**
@@ -59,7 +59,7 @@ In this iteration, we introduced enhancements to refine our model:
 - **Preclusion Criterion**: We implemented a preclusion criterion, discarding any image that predominantly shows water with no significant landmass, aligning with the dataset's characteristics in which each image has some landmass. This will help reduce the number of images to match and it solves an issue where best matches for a query image with significant landmass were ocean water bodies.
 - **Updated Result Strategy**: Afte the SIFT comparison, the GPS coordinates of center pixels of top two best matched sample images are stored as result. Sometimes the first match resembles the query image but it is not the location we wanted, and second match is our actual location in the query image. 
 
-### [sliding_window_matcher_final_v3.ipynb](notebooks/sliding_window_matcher_final_v3.ipynb)
+### [sliding_window_matcher_final_v3.ipynb](notebooks/sliding_window_matcher_final_v3.ipynb) (referred as pipeline 2)
 
 In this iteration, we updated our result format to work better in docker container.
 - **Data Format Conversion**: We converted our excel sheet into a csv file as it is convenient to access. For validation purposes, images with known coordinates are included to assess the proximity of the predicted coordinates to the actual labeled locations. 
