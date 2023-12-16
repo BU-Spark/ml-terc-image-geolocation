@@ -31,17 +31,18 @@ The Windows on Earth program receives astronaut photos from the International Sp
 - find the predicted location in [NN_multipleimages_results.csv](./pipeline-1-(NN)/NN_multipleimages_results.csv).
 
 ## How to run [Pipeline-2-(SIFT)](./pipeline-2-(SIFT)/)
-- upload you query image in the [query_images](./query_images/) folder.
-- add the name of the query image in `Image` column of [results_SIFT_v2_csv.csv](./pipeline-2-(SIFT)/results_SIFT_v2_csv.csv).
+- upload you query images in the [query_images](./query_images/) folder.
+- add the name of the query images in `Image` column of [results_SIFT_v2_csv.csv](./pipeline-2-(SIFT)/results_SIFT_v2_csv.csv).
 - run the notebook [sliding_window_matcher_final_v3.ipynb](./pipeline-2-(SIFT)/sliding_window_matcher_final_v3.ipynb).
 - enter the Google Maps API token when prompted.
-- view the identified location in [results_SIFT_v2_csv.csv](./pipeline-2-(SIFT)/results_SIFT_v2_csv.csv) in appropriate columns.
+- view the identified location in [results_SIFT_v2_csv.csv](./pipeline-2-(SIFT)/results_SIFT_v2_csv.csv) in appropriate columns for each image.
 
 
 ## How to run [Pipeline-3-(TerraByte)](https://chat.openai.com/g/g-cGxe4cVEb-terrabyte)
 ```
-NOTE: requires GPT4 subscription for use
+NOTE: requires GPT4 subscription for use.
 ```
+- [Click here](https://chat.openai.com/g/g-cGxe4cVEb-terrabyte) to open our custom version of ChatGPT to access pipeline 3.
 - Upload an image of Earth taken from the ISS for analysis.
 - If available, include the approximate GPS coordinates of the ISS at the time the image was taken. This helps in narrowing down potential locations.
 - Ask TerraByte to geolocate the image. You can include specific questions or details you're interested in, such as identifying particular geographical features or confirming a suspected location.
@@ -53,11 +54,11 @@ Tips for Best Results
 - ISS Coordinates: Providing accurate ISS coordinates at the time of the image capture significantly enhances location prediction accuracy. However, if the location of the ISS is quite far from the location in the image, it might cause inaccurate identification.
 
 
-# Find a detailed account of the researh, experimentation and evaluations at [dev/README.md](./dev/README.md)
+# Find a detailed account of the research, experimentation and evaluations at [dev/README.md](./dev/README.md)
 
 
 # [Project Members](./COLLABORATORS)
 
-- Hemant Kumar Singh
-- Jaisal Singh
-- Vedika Srivastava
+- [Hemant Kumar Singh](https://github.com/hemantsingh11)
+- [Jaisal Singh](https://github.com/jaisal64)
+- [Vedika Srivastava](https://github.com/VedikaSrivastava)
