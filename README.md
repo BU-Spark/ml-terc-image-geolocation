@@ -68,6 +68,45 @@ As we can see, the algorithm is not able to detect the location accurately, it c
 ## Introduction
 TerraByte is a specialized AI model designed to analyze and geolocate images of Earth taken from the International Space Station (ISS). It identifies geographical and man-made features to predict the location depicted in the images. It is based on a customizable GPT4 model that is offered by OpenAI. It is publicly accessible with this link: [TerraByte](https://chat.openai.com/g/g-cGxe4cVEb-terrabyte) (requires GPT4 subscription for use).
 
+## TerraByte: Evolution of Capabilities
+
+### Initial Role and Configuration
+TerraByte was initially designed as a geography expert, focusing on analyzing satellite imagery, particularly from the International Space Station (ISS). It was capable of identifying geographical features in these images, such as terrain types and visible infrastructure, using approximate ISS location data to estimate the depicted region of Earth.
+
+### Capability Enhancements
+
+#### Initial Configuration
+- **Image Analysis**: Analyze Earth images from the ISS.
+- **Feature Identification**: Identify major geographical features like mountains, rivers, and urban areas.
+- **Location Estimation**: Use ISS's approximate coordinates to narrow down the potential region shown in the image.
+
+#### Enhanced Feature Identification
+- **Detection Improvement**: Enhanced ability to detect unique natural formations and notable man-made structures.
+- **Detail Recognition**: Identify shapes of coastlines, mountain ranges, significant structures like bridges and airports.
+
+#### Scale Assessment and Location Prediction
+- **Image Scale Understanding**: Refined assessment of the scale of images for a better understanding of the area extent.
+- **Precise Location Prediction**: Predict location more accurately, identifying general regions or specific places based on image detail.
+
+#### Analytical Comparison and Naming of Features
+- **Feature Analysis**: Analyze features for distinctiveness and orientation within the estimated region.
+- **Feature Naming**: Begin naming identifiable landforms, bodies of water, and significant man-made structures.
+
+#### Efficiency and User Interface Improvements
+- **Processing Efficiency**: Focus on prioritizing processing efficiency.
+- **Output Clarity**: Improve the clarity of output presentation with advanced pattern recognition and analytical capabilities.
+
+#### Return to Geo Explorer Model
+- **Educational Focus**: Briefly reverted to "Geo Explorer" configuration, focusing on providing educational geography and map analysis.
+
+#### Reversion to TerraByte with Enhanced Context
+- **Updated Context**: Reinstated with detailed processes for extracting geographical features, considering image scale, and predicting image location with enhanced accuracy and naming capabilities.
+
+### Ongoing Improvements
+Throughout these updates, TerraByte has remained a sophisticated tool for interpreting satellite imagery, continually improving in accuracy, efficiency, and user experience.
+
+
+
 ## How to Use TerraByte
 ### Step 1: Image Submission
 - **Provide an Image**: Upload an image of Earth taken from the ISS for analysis.
